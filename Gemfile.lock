@@ -292,6 +292,7 @@ DEPENDENCIES
   github-pages
   jekyll-github-metadata
   jekyll-include-cache
+  marp-cli
   minimal-mistakes-jekyll
   tzinfo-data
   webrick
