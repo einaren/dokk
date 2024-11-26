@@ -1,0 +1,5 @@
+site_name: dokk
+nav:
+  - Home: index.md
+theme:
+  name: material
