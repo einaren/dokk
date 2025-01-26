@@ -3,8 +3,8 @@ site_url: https://einaren.github.io/dokk
 repo_url: https://github.com/einaren/dokk
 edit_uri: edit/main/docs/
 nav:
-    - Hi...: index.md
-    - Diagrams: diagrams.md
+  - Hi...: index.md
+  - Diagrams: diagrams.md
 theme:
   name: material
   features:
@@ -61,3 +61,10 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+plugins:
+  - search
+  - git-committers:
+      repository: einaren/dokk
+      branch: main
+  - git-revision-date-localized:
+      enable_creation_date: true

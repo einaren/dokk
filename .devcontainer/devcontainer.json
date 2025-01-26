@@ -2,7 +2,7 @@
 {
   "name": "MkDocs Material Development Container",
   "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
-  "postCreateCommand": "pip install mkdocs-material",
+  "postCreateCommand": "pip install mkdocs-material mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin",
   "customizations": {
     "vscode": {
       "extensions": [
