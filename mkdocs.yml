@@ -1,5 +1,6 @@
 site_name: dokk
 site_url: https://einaren.github.io/dokk
+repo_url: https://einaren.github.io/dokk
 nav:
     - Hi...: index.md
     - Diagrams: diagrams.md
